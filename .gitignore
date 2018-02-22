@@ -1,3 +1,7 @@
+# Wordpress folders
+wordpress/*
+!wordpress/wp-content
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
