@@ -73,23 +73,47 @@ a { text-decoration: none; }
 /* general controls */
   h1, h2 {
     margin-top: 1rem;
-    margin-left: 15%;
     text-align: center;
   }
   h1 { font-size: 3rem; }
-  h2, h3, h4, p { margin-bottom: 0.5rem; }
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  h3, h4, p { margin-bottom: 0.5rem; }
 
   main {
     padding: 2rem 3rem;
-    margin: 10% 10% 10% 30%;
-    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 10% 0 30%;
     color: #111;
   }
+
+  .postBody {
+    margin-bottom: 1rem;
+    padding: 2rem;
+    position: relative;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .postBody img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+  }
+  .postBody p {
+    margin: 1rem auto;
+    text-align: left;
+    max-width: 32rem;
+  }
+  .wp-caption-text {
+    font-style: italic;
+  }
+
   footer {
-    position: absolute;
+    /* position: absolute;
     bottom: 0.125rem;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 50%; */
+    /* transform: translateX(-50%); */
     text-align: center;
     font-size: 0.875rem;
   }
