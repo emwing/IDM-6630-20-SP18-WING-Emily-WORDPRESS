@@ -1,6 +1,6 @@
 <!--  <?php echo basename(__FILE__); ?> -->
     <footer>
-      <h4>Check-In 8.2 Site</h4>
+      <h4>Assignment 8</h4>
       <p>&copy;2018 Emily Wing</p>
     </footer>
 

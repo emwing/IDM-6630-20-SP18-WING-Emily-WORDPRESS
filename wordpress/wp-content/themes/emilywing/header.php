@@ -11,7 +11,7 @@
   <body>
     <header>
       <h1><?php echo get_bloginfo('name'); ?></h1>
-      <h2>wheeeeeeeeeeeeeeeeeeee!</h2>
+      <h2>Check Out These Series!</h2>
       <?php get_template_part("nav"); ?>
     </header>
     <!--  <?php echo "END OF " . basename(__FILE__); ?> -->
