@@ -3,7 +3,7 @@
 
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-    <div class="postBody">
+    <div <?php post_class(); ?> >
 
       <h3>
         <a href="<?php the_permalink(); ?>">
@@ -13,7 +13,7 @@
 
       <?php the_content(); ?>
 
-      <p>Genres: <?php the_category( ', ' ); ?></p>      
+      <p>Genres: <?php the_category( ', ' ); ?></p>
 
     </div>
 

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <?php wp_head(); ?> <!-- always put this at the end of the head section -->
   </head>
-  <body>
+  <body <?php body_class(); ?> >
     <header>
       <h1><?php echo get_bloginfo('name'); ?></h1>
       <h2>Check Out These Series!</h2>
