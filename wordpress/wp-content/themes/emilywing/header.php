@@ -10,8 +10,6 @@
   </head>
   <body <?php body_class(); ?> >
     <header>
-      <h1><?php echo get_bloginfo('name'); ?></h1>
-      <h2>Check Out These Series!</h2>
-      <?php get_template_part("nav"); ?>
-    </header>
+      <h1><a href="<?php echo home_url();?>"><?php echo get_bloginfo('name'); ?></a></h1>
+
     <!--  <?php echo "END OF " . basename(__FILE__); ?> -->
