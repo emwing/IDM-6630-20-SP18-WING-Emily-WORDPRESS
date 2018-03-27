@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <title><?php echo get_bloginfo('name'); ?></title>
 
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <?php wp_head(); ?> <!-- always put this at the end of the head section -->
   </head>
   <body <?php body_class(); ?> >
